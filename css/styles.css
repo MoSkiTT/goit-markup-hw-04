@@ -171,10 +171,22 @@ img {
     margin-bottom: 10px;
 }
 
+.svg-list-item {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f4fa;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+}
+
 .img-list-item {
     margin-bottom: 30px;
-    display: block;
+    display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .soc-net {
@@ -291,6 +303,18 @@ img {
     margin-right: 40px;
 }
 
+.navigation-list-item:after {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2px;
+    width: 47px;
+    height: 4px;
+    background: #2196f3;
+    vertical-align: middle;
+    content: "";
+}
+
 .address {
     display: flex;
     margin-left: auto;
@@ -375,4 +399,34 @@ img {
 .style {
     font-family: "Roboto", sans-serif;
     font-style: normal;
+}
+
+.social-list-link {
+    display: flex;
+    width: 20px;
+    height: 20px;
+}
+
+.social-list-link {
+    margin-right: 10px;
+}
+
+.social-list-link-instagram {
+    background-image: url("../svg/instagram\ 2.svg");
+    background-repeat: no-repeat;
+}
+
+.social-list-link-twitter {
+    background-image: url("../svg/twitter.svg");
+    background-repeat: no-repeat;
+}
+
+.social-list-link-facebook {
+    background-image: url("../svg/facebook.svg");
+    background-repeat: no-repeat;
+}
+
+.social-list-link-linkedin {
+    background-image: url("../svg/linkedin\ 1.svg");
+    background-repeat: no-repeat;
 }
